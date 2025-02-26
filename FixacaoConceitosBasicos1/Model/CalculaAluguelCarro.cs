@@ -11,8 +11,8 @@ namespace FixacaoConceitosBasicos1.Model
         public static double Calcular(int dias, int quilometragemInicial, int quilometragemFinal)
         {
             
-            double valorDiario = 50.0;
-            double valorPorKm = 1.0;
+            double valorDiario = 95;
+            double valorPorKm = 0.35;
             int quilometragemUsada = quilometragemFinal - quilometragemInicial;
 
             
